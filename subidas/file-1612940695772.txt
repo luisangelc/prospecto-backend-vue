@@ -1,0 +1,39 @@
+- Validar que los contactos de la App no reciban notificación cuando estos son marcados como Contacto de Aplicación al momento de Reabrir o Re-Aprueba la App.
+
+- Cuando al App es Reopened y se agrega un Shipper a la App debera aparecer habilitado en todas las auditorias.
+- Cuando al App es Reopened y se agrega un Shipper a la App debera aparecer habilitado en todas las auditorias (SQL).
+
+- Cuando al App es Reopened y se remueve un Shipper a la App, que sea posible removerlo de una auditoria.
+- Cuando al App es Reopened y se remueve un Shipper a la App, que sea posible removerlo de una auditoria. (SQL).
+
+- Verificar que el remover un shipper de la App y este estaba linkeado a auditorias se remueva de todas las auditorias.
+- Verificar que el remover un shipper de la App y este estaba linkeado a auditorias se remueva de todas las auditorias (SQL).
+
+- Al remover un shipper de la App no enviar notificacón a ningun contacto del Shipper.
+- Al remover un shipper de la App no enviar notificacón a ningun contacto del Shipper (SQL).
+- Remover los permisos del Shipper por auditoria.
+- Remover los permisos del Shipper por auditoria (SQL).
+
+- ***El Shipper no verá las auditorias en el SCP***
+
+- Cuando se agrega un nuevo Shipper a la auditoria, ya no enviar notificacion "Shipper Acknowledgment" en ningun momento a los contactos.
+- Cuando se agrega un nuevo Shipper a la auditoria, ya no enviar notificacion "Shipper Acknowledgment" en ningun momento a los contactos (SQL).
+
+- Remover un Shipper de la Auditoria: 	No se envía ninguna notificación a los shipper contacts.
+					Se le quitan todos los permisos.
+					***El shipper deja de ver la auditoría en el SCP al instante.***
+
+- Remover y agregar el Shipper de la auditoria: - Asignar la última configuración establecida para el shipper.
+						- No enviar notificación acknowledgment.
+						- Si se agrega un nuevo contacto NO enviar notificación acknowledgment.
+						- ***El shipper vuelve a ver la auditoría en el SCP al instante.***
+
+- Agrear un Shipper nuevo de auditoria sin estatus: 	- Enviar notificacion "Shipper Acknowledgment" SÓLO a los contactos de los Shipper de la nueva auditorias cuando se reaprueba la App.
+
+- Remover un Shipper nuevo de auditoria sin estatus: 	- No se envía ninguna notificación a los contactos del shipper.
+							- Se le quitan los permisos al shipper.
+
+- Validar si la App a la que pertenece la auditoria esta con estatus Reabierto, no permitir enviar el cuestionario y mostrar alerta.
+- Validar si la App a la que pertenece la auditoria esta con estatus Reabierto, no permitir enviar el cuestionario(SQL).
+
+
